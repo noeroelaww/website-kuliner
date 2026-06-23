@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(6, 91, 6);
+    color: white;
+    padding: 15px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .navbar-logo h1{
+    font-size: 35px;
+    color: rgb(20, 218, 112);
+}
+.navbar .navbar-logo .tec {
+    color: rgb(203, 10, 10);
+}
+.navbar ul{
+    list-style: none;
+    gap: 25px;
+    display: flex;
+}
+.navbar ul li{
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18x;
+    color: white;
+    transition: 0.3s ease;
+}
+.navbar ul li a ::before{
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left:0;
+    bottom: 5px;
+    background-color: darkgoldenrod;
+    transition:0.3s ease;
+}
+.navbar ul li a:hover{
+    color: darkorange;
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url('logo samping.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .isi{
+    padding: 1.4rem 7%;
+    max-width: 50rem;}
+.isi h1{
+    margin-top: 1rem;
+    font-size: 50px;
+    color: rgb(78, 10, 10);}
+.isi p{
+    font-size: 35px;
+    color: rgb(78, 10, 10);
+    font-weight: 150;}
+.isi a{
+    text-decoration: none;
+}
+#profil{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    background-image: url(mangkok.png);
+}
+
+#profil h2{
+    font-size: 50px;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+#profil p{
+    max-width: 800px;
+    margin: 0 auto 15px;
+    line-height: 1.8;
+    color: #555;
+}
+#menu{
+    padding: 60px 20px;
+    text-align: center;
+    background-color: darkolivegreen;
+}
+
+#menu h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #333;
+}
+#menu h3{
+  font-size: 20px;
+    margin-bottom: 30px;
+    color: #333;  
+}
+.card{
+    width: 200px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur;
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width: 80px ;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3{
+    margin-top: 10px;
+    color: #333;
+}
+
+.card p{
+    color: #ff6600;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+#fasilitas{
+    padding: 60px 20px;
+    text-align: center;
+    background-color:burlywood;
+}
+
+#fasilitas h2{
+    font-size: 32px;
+    color: #ff6600;
+    margin-bottom: 30px;
+}
+
+.fasilitas-card{
+    width: 250px;
+    display: inline-block;
+    margin: 10px;
+    padding: 26px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.fasilitas-card h3{
+    margin-bottom: 10px;
+}
+
+.fasilitas-card:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+#contact-us{
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#contact-us h2{
+    font-size: 32px;
+    color: #0e0c0a;
+    margin-bottom: 20px;
+}
+
+#contact-us p{
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}
+html{
+    scroll-behavior: smooth;
+}
+
